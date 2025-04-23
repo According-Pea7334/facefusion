@@ -116,4 +116,4 @@ def listen() -> None:
 
 
 def run(ui : gradio.Blocks) -> None:
-	ui.launch(favicon_path = 'facefusion.ico', share=True)
+	ui.launch(favicon_path = 'facefusion.ico', share=True, server_name="0.0.0.0")
